@@ -1,0 +1,18 @@
+body{
+  background-color: #e4efe7;
+  color: #393e46;
+}
+h1{
+  font-size: 20px;
+}
+
+.form{
+background: white;
+width: 400px;
+height: 600px;
+margin-top: 20px;
+margin-left: 400px;
+border: 1px solid;
+padding-left: 30px;
+box-shadow: 3px 2px 3px 2px #888888;
+}

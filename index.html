@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Skundo forma</title>
+  </head>
+  <body>
+
+<div class="form">
+
+
+    <form action="submited.html" method="get"size="40" >
+        <h1>SKUNDAS</h1>
+    <label for="name"></label>
+    <input id="text"name="Vardas" placeholder="VARDAS"value=""size="15" required>
+    <br>
+    <br>
+    <label for="lastname"></label>
+    <input id="text"name="Pavardė" value="" minlenght="8"placeholder="PAVARDĖ" size="15"required>
+    <br>
+    <br>
+    <label for="email"></label>
+    <input id="email"name="EMAIL"size="15" placeholder="EL.PAŠTAS"required>
+    <br>
+    <br>
+    <label for="tel"></label>
+    <input type="tel" name="Telefono numeris" type="Telefono numeris"size="15"placeholder="TEL. NUMERIS" required>
+<br>
+<br>
+  <select name="shop">
+  <option value="#" hidden>Pasirinkite parduotuvę</option>
+  <option value="">Maxima Volungių g.,15</option>
+  <option value="">Maxima Pitrėnų g., 3A</option>
+  <option value="">Maxima Šermukšnių g., 63</option>
+  <option value="">Maxima Rygos g., 2</option>
+  </select>
+    <br>
+    <br>
+<label for="date">Apsilankymo data:</label>
+<br>
+<input type="date" id="date" name="apsilankymo data"
+           value="2020-01-01"
+           min="2020-01-01" max="2021-01-01">
+<br>
+<br>
+<input type="radio" id="Higienos normų nesilaikymas" name="reason">
+<label for="higienos normų nesilaikymas">Higienos normų nesilakymas</label><br>
+<input type="radio" id="Bloga prekės kokybė" name="reason">
+<label for="Bloga prekės kokybė">Bloga prekės kokybė</label><br>
+<input type="radio" id="Prastas aptarnavimas" name="reason">
+<label for="prastas aptarnavimas">Prastas aptarnavimas</label><br>
+<input type="radio" id="kita" name="reason">
+<label for="Kita priežastis">Kita priežastis</label>
+<br>
+<br>
+<label for="file">Pridėti nuotrauką:</label>
+<br>
+<br>
+<input type="file" id="image" name="myfile">
+<br>
+<br>
+<input type="checkbox" id="checkbox" name="Sutikimas"required>
+<label for="Sutikimas"> Sutinku, su įmonės privatumo politika.</label><br><br>
+<input type="submit">
+    </form>
+
+    </div>
+
+  </body>
+</html>
